@@ -7,12 +7,17 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-  <div class="container">
-    <h1>Manage Your Todos</h1>
-    <div class="todo-input">
-    <input type="text" placeholder="Write Todo...">
-    <button>Add</button>
-  </div>
+    <div>
+
+      <div class="container">
+        <h1>Manage Your Todos</h1>
+        <div class="todo-input" style="margin-top: 20px;">
+        <input type="text" placeholder="Write Todo..." class="todo-input">
+        <button class="add-btn" onclick="addTodo()">Add</button>
+      </div>
+      <ul class="todoList" style="margin-top: 20px;">   
+      </ul>
+    </div>
+  <script src="script.js"></script>
 </body>
 </html>
